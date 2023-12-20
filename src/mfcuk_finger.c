@@ -39,9 +39,9 @@
 #include "mfcuk_finger.h"
 
 mfcuk_finger_tmpl_entry mfcuk_finger_db[] = {
-  { "./data/tmpls_fingerprints/mfcuk_tmpl_skgt.mfd", "Sofia SKGT", mfcuk_finger_default_comparator, mfcuk_finger_skgt_decoder, NULL },
-  { "./data/tmpls_fingerprints/mfcuk_tmpl_ratb.mfd", "Bucharest RATB", mfcuk_finger_default_comparator, mfcuk_finger_default_decoder, NULL },
-  { "./data/tmpls_fingerprints/mfcuk_tmpl_oyster.mfd", "London OYSTER", mfcuk_finger_default_comparator, mfcuk_finger_default_decoder, NULL },
+  { "/usr/local/bin/data/tmpls_fingerprints/mfcuk_tmpl_skgt.mfd", "Sofia SKGT", mfcuk_finger_default_comparator, mfcuk_finger_skgt_decoder, NULL },
+  { "/usr/local/bin/data/tmpls_fingerprints/mfcuk_tmpl_ratb.mfd", "Bucharest RATB", mfcuk_finger_default_comparator, mfcuk_finger_default_decoder, NULL },
+  { "/usr/local/bin/data/tmpls_fingerprints/mfcuk_tmpl_oyster.mfd", "London OYSTER", mfcuk_finger_default_comparator, mfcuk_finger_default_decoder, NULL },
 };
 
 int mfcuk_finger_db_entries = sizeof(mfcuk_finger_db) / sizeof(mfcuk_finger_db[0]);
