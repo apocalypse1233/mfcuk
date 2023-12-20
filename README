@@ -2,7 +2,9 @@ README
 ======
 
 Compiling:
+    cd mfcuk
     autoreconf -is && ./configure && make && sudo make install
+    sudo cp -r src/data/ /usr/local/bin/
 
 Running (most basic):
     ./mfcuk -C -R 0:A -v 2
