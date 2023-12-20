@@ -2,10 +2,7 @@ README
 ======
 
 Compiling:
-    autoreconf -is
-    ./configure
-    make
-    sudo make install
+    autoreconf -is && ./configure && make && sudo make install
 
 Running (most basic):
     ./mfcuk -C -R 0:A -v 2
